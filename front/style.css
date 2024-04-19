@@ -1,0 +1,456 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:wheat ;
+    color: orange;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Karla", sans-serif;
+}
+
+.logo {
+    width: 5%;
+    margin-right: 5vw;
+}
+
+.itens_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+.item_header {
+    list-style: none;
+    font-size: 22pt;
+}
+
+.item_header:hover {
+    cursor: pointer;
+    border-bottom: 3px solid orange;
+}
+
+.sua_sacola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    font-size: 22pt;
+    
+    border-radius: 50px;
+    background-color: #FD3974;
+    color: white;
+
+    height: 7vh;
+    width: 15vw;
+}
+
+.marmitas {
+    width: 100%;
+    background-image: url(imagens/marmita.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-marmita {
+    font-family: "Lalezar", system-ui;
+    letter-spacing: 2px;
+    font-size: 40pt;
+    text-align: left;
+    width: 35vw;
+    color: white;
+    margin-left: 65vw;
+
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 55vh; 
+    gap: 4vw;
+
+    font-family: "Inter", sans-serif;
+}
+
+.produto {
+    background-color: #f8f8f8;
+    width: 29vw;
+    height: 27vh;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.foto-produto {
+    width: 20%;
+}
+
+.descricao {
+    font-weight: 500;
+    width: 15vw;
+    font-size: 10pt;
+    margin-top: 1vh;
+}
+
+.login {
+    background-image: url(imagens/salgados.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+}
+
+.texto-salgados {
+    font-family: "Lalezar", system-ui;
+    letter-spacing: 2px;
+    font-size: 60pt;
+    text-align: left;
+    width: 40vw;
+    color: white;
+
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+}
+
+.formulario-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.campo-login {
+    width: 22vw;
+    height: 6vh;
+    background-color: #F9842D;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.336);
+    padding-left: 1vw;
+    font-family: "Inter", sans-serif;
+}
+
+.campo-login::placeholder {
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.cadastrar {
+    background-color:#FD3974;
+    border: none;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 40px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.imagem-prato{
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 55vw;
+
+}
+
+.titulo-sobre{
+    font-family:"Lalezar", system-ui;
+    font-size: 40pt;
+    text-align: right;
+    width: 45vw;
+}
+
+.texto-sobre{
+    width: 50vw;
+    font-size: 17pt;
+    font-family:  "Inter", sans-serif;
+    font-weight: 500;
+    text-align: right;
+
+}
+.ft-prato{
+    width: 76%;  
+}
+
+footer{
+    display: flex;
+}
+
+.imgfooter{
+    width: 60%;
+}
+
+.imagemlink{
+    width: 5%;
+}
+
+
+@media screen and (min-width: 414px) and (max-width: 900px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    header{
+        background-color:wheat ;
+        color: orange;
+        padding: 20px;
+        text-align: center;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        font-family: "Karla", sans-serif;
+    }
+    
+    .logo {
+        width: 5%;
+        margin-right: 5vw;
+    }
+    
+    .itens_header {
+        display: none;
+    }
+    
+    .item_header {
+        list-style: none;
+        font-size: 22pt;
+    }
+    
+    .item_header:hover {
+        cursor: pointer;
+        border-bottom: 3px solid orange;
+    }
+    
+    .sua_sacola {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        list-style: none;
+        font-size: 22pt;
+        
+        border-radius: 50px;
+        background-color: #FD3974;
+        color: white;
+    
+        height: 7vh;
+        width: 15vw;
+    }
+    
+    .marmitas {
+        width: 100%;
+        background-image: url(imagens/marmita.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .texto-marmita {
+        font-family: "Lalezar", system-ui;
+        letter-spacing: 2px;
+        font-size: 20pt;
+        width: 50vw;
+        color: white;    
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+        margin-left: 0px;
+    }
+    
+    .produtos {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column; 
+        height: 60vh; 
+        gap: 4vh;
+    
+        font-family: "Inter", sans-serif;
+    }
+    
+    .produto {
+        background-color: #f8f8f8;
+        width: 70vw;
+        height: 15vh;
+        border-radius: 40px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+    }
+    
+    .foto-produto {
+        width: 20%;
+    }
+    
+    .descricao {
+        font-weight: 500;
+        width: 40vw;
+        font-size: 10pt;
+        margin-top: 1vh;
+    }
+    
+    .login {
+        background-image: url(imagens/salgados.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    
+    .texto-salgados {
+        font-family: "Lalezar", system-ui;
+        letter-spacing: 2px;
+        font-size: 24pt;
+        width: 90vw;
+        color: white;
+        margin-right: 0px;
+        text-align: center;
+    
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.637);
+    }
+    
+    .formulario-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vh;
+    }
+    
+    .campo-login {
+        width: 70vw;
+        height: 5vh;
+        background-color: #F9842D;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.336);
+        padding-left: 3vw;
+        font-family: "Inter", sans-serif;
+        font-size: 12pt;
+    }
+    
+    .campo-login::placeholder {
+        color: white;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .cadastrar {
+        background-color:#FD3974;
+        border: none;
+        width: 35vw;
+        height: 4vh;
+        border-radius: 40px;
+        color: white;
+        font-family: "Inter", sans-serif;
+        font-size: 11pt;
+    }
+    
+    .sobre{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65vh;
+    }
+    
+    .imagem-prato{
+        width: 45vw;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sobre-texto{
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        width: 55vw;
+        justify-content: center;
+        align-items: center;
+        height: 15vh;
+    }
+    
+    .titulo-sobre{
+        font-family:"Lalezar", system-ui;
+        font-size: 35pt;
+        text-align: center;
+        width: 80vw;
+    }
+    
+    .texto-sobre{
+        width: 80vw;
+        font-size: 14pt;
+        font-family:  "Inter", sans-serif;
+        font-weight: 500;
+        text-align: center;
+    
+    }
+    .ft-prato{
+        width: 87%;  
+    }
+    
+    footer{
+        display: flex;
+        gap: 5vw;
+    }
+    
+    .imgfooter{
+        width: 120%;
+    }
+    
+    .imagemlink{
+        width: 5%;
+    }
+}
